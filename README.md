@@ -10,7 +10,7 @@ This is the Repository for the Statistical Machine Learning (STA 208) course Pro
 
 This project aims to find the relation between the COVID19 reported anonymized cases with the Social Distancing data. This is achievable by taking a look at the unlabled transportation data of the people in a city and see how we can train a model to learn the trend of the number of cases reported in that specific city. 
 
-For this Project, we Will be focusing on the Joh Hopkins Univeristy COVID19 data availabel at https://github.com/CSSEGISandData/COVID-19 as well as the SafeGraph Social Distancing data available at https://www.safegraph.com/covid-19-data-consortium. We have found a relevant research at the University of Texas $^{[1]}$ in which they take a look at Death rate and how the trend flattens with the shelter in place order. Their model could be a very helpful example to our project.
+For this Project, we Will be focusing on the Joh Hopkins Univeristy COVID19 data availabel at https://github.com/CSSEGISandData/COVID-19 as well as the SafeGraph Social Distancing data available at https://www.safegraph.com/covid-19-data-consortium. We have found a relevant research at the University of Texas [1] in which they take a look at Death rate and how the trend flattens with the shelter in place order. Their model could be a very helpful example to our project.
 
 
 ### References
