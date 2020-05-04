@@ -1,4 +1,4 @@
-# SML_Final_COVID19
+# Relating number of COVID19 cases in the US with social-distancing measures
 
 ### Authors: Kourosh Vali, Begum Kasap
 
