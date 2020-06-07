@@ -14,9 +14,19 @@ For this Project, we Will be focusing on the Joh Hopkins University COVID19 data
 
 ### Instructions
 
-To execute the project, the file located at /notebooks/Models.ipynb is the start point. It contains all the Blocks for polishing the preprocessed data which was previously dumped to /data to a dataset that can be used in later blocks which will regress on the training data and predict for the test data.  
 
-To create the input data for this prediction task, the file at /notebooks/preprocessing_data.ipynb can be executed which is developed to create meaningful data from Large John Hopkins University COVID-19 cases and SafeGraph GPS tracking datasets. More info on the steps of preprocessing is available inside the aforementioned notebook file.
+#### Preprocessing
+To create the input data for this prediction task, the file at /notebooks/preprocessing_data.ipynb can be executed which is developed to create meaningful data from Large John Hopkins University COVID-19 cases and SafeGraph GPS tracking datasets. To be more precise, we are creating the daily and weekly training and test dataset from the John Hopkins University COVID-19 cases and SafeGraoh social distancing data. In order to do so, we have to place the "csse_covid_19_data" downloaded from the referenced CSSEGISandData to the "/data/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/" folder and then execute the combine_jhu_data.py (provided by Prof. James Sharpnack) to create the daily.df data file at the /data folder. Also, we need to download the SafeGraph social distancing dataset and place it in the /data folder. 
+
+Next to apply the preprocessing on the SafeGraph dataset and the daily cases dataset, head to /notebooks and execute the preprocessing_data python notebook (partly provided by Prof. James Sharpnack) in which we create two preprocessed and meaningful datasets for the two Prediction Tasks. The daily changes of COVID 19 cases, as well as the Percentage of people in each state that are at home are stored at /data/X_daily_.. and /data/y_daily_.. files. In addition, the weekly changes of the changes of Incident Rate (which is the label) from the last week are tracked and the resulting file is stored at /data/X_weekly_change_.. and /data/y_weekly_change_.. data files.
+More info on the steps of preprocessing is available inside the aforementioned notebook file.
+
+#### Learning Task
+
+(needs editing and more info)
+In the project, there are two Prediction Tasks that we tried to address in this project. The First Prediction task is to use the daily cases, States, Population of States, . We have the states as one of the variables because different states have incorporated different methods for dealing with the pandemic. file located at /notebooks/Models.ipynb is the start point. It contains all the Blocks for polishing the preprocessed data which was previously dumped to /data to a dataset that can be used in later blocks which will regress on the training data and predict for the test data.  
+
+
 
 ### References
 [1] S. Woody, et al. "Projections for first-wave COVID-19 deaths across the US using social-distancing measures derived from mobile phones", Not yet published https://doi.org/10.1101/2020.04.16.20068163
