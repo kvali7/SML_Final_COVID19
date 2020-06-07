@@ -10,10 +10,10 @@ This is the Repository for the Statistical Machine Learning (STA 208) course Pro
 
 This project aims to find the relation between the COVID19 reported anonymized cases with the Social Distancing data. This is achievable by taking a look at the unlabled transportation data of the people in a city and see how we can train a model to learn the trend of the number of cases reported in that specific city. 
 
-For this Project, we Will be focusing on the Joh Hopkins Univeristy COVID19 data availabel at https://github.com/CSSEGISandData/COVID-19 as well as the SafeGraph Social Distancing data available at https://www.safegraph.com/covid-19-data-consortium. We have found a relevant research at the University of Texas [1] in which they take a look at Death rate and how the trend flattens with the shelter in place order. Their model could be a very helpful example to our project.
+For this Project, we Will be focusing on the Joh Hopkins University COVID19 data available at https://github.com/CSSEGISandData/COVID-19 as well as the SafeGraph Social Distancing data available at https://www.safegraph.com/covid-19-data-consortium. We have found a relevant research at the University of Texas [1] in which they take a look at Death rate and how the trend flattens with the shelter in place order. Their model could be a very helpful example to our project.
 
 ### Instructions
-
+(Clean UP, remove test)
 To execute the project, the file located at /notebooks/Models.ipynb is the start point. It contains all the Blocks for polishing the preprocessed data which was previously dumped to /data to a dataset that can be used in later blocks which will regress on the training data and predict for the test data.  
 
 To create the input data for this prediction task, the file at /notebooks/preprocessing_data.ipynb can be executed which is developed to create meaningful data from Large John Hopkins University COVID-19 cases and SafeGraph GPS tracking datasets. More info on the steps of preprocessing is available inside the aforementioned notebook file.
