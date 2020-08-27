@@ -1,4 +1,4 @@
-# Relating number of COVID19 cases in the US with social-distancing measures
+# Changes in COVID19 cases in the US with social-distancing measures
 
 link to the Project's Repo:
 https://github.com/kvali7/SML_Final_COVID19
